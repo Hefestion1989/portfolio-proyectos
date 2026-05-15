@@ -13,6 +13,9 @@ La organizacion principal queda reducida a dos repos:
 - `office-copilot`: macros para usar ChatGPT desde Excel y Word.
 - `pdf-concept-search`: prototipo de busqueda conceptual en PDFs.
 - `procesamiento-txt`: flujo de limpieza y movimiento de archivos TXT.
+- `VeryCheck`: producto de verificacion y fact-checking.
+- `promptmaster-ai`: herramienta avanzada para prompts con React/Gemini.
+- `Prompts`: taller simple y offline de prompts.
 - `subjetividad-no-biologica`: ensayo sobre subjetividad artificial.
 - `ensayos-ia-conciencia-sociedad`: coleccion academica sobre IA, conciencia, subjetividad y gobernanza tecnologica.
 
