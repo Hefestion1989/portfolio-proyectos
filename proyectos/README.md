@@ -1,29 +1,22 @@
 # Indice de proyectos
 
-Este indice sirve para ordenar que proyectos se muestran publicamente y cuales siguen en laboratorio.
+Este indice sirve para ordenar que proyectos se muestran publicamente y cuales viven dentro del laboratorio.
 
-## Para mostrar
+## Repos principales
 
-- VeryCheck
-- promptmaster-ai
-- Prompts
-- subjetividad-no-biologica
-- laboratorio-digital
-- portfolio-proyectos
+- `laboratorio-digital`
+- `portfolio-proyectos`
 
-## En laboratorio
+## Dentro de laboratorio-digital
 
-- academic-semantic-search
-- office-copilot
-- pdf-concept-search
-- procesamiento-txt
-- ensayos-ia-conciencia-sociedad
+- `academic-semantic-search`
+- `office-copilot`
+- `pdf-concept-search`
+- `procesamiento-txt`
+- `subjetividad-no-biologica`
+- `ensayos-ia-conciencia-sociedad`
 
-## Pendiente
+## Pendiente en GitHub
 
-- Agregar enlaces reales si algun proyecto del laboratorio se convierte en repo propio.
-- Decidir que proyectos conviene fijar en el perfil de GitHub.
-
-## Repos sugeridos a futuro
-
-- `ensayos-ia-conciencia-sociedad`: archivo academico independiente, si se quiere separar del laboratorio.
+- Fijar `laboratorio-digital` y `portfolio-proyectos` en el perfil.
+- Archivar o borrar repos antiguos si se quiere que el perfil quede reducido a dos repos.
