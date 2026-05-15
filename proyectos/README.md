@@ -7,9 +7,9 @@ Este indice sirve para ordenar que proyectos se muestran publicamente y cuales s
 - VeryCheck
 - promptmaster-ai
 - Prompts
-- ensayos-ia-conciencia-sociedad
 - subjetividad-no-biologica
 - laboratorio-digital
+- portfolio-proyectos
 
 ## En laboratorio
 
@@ -17,15 +17,13 @@ Este indice sirve para ordenar que proyectos se muestran publicamente y cuales s
 - office-copilot
 - pdf-concept-search
 - procesamiento-txt
+- ensayos-ia-conciencia-sociedad
 
 ## Pendiente
 
-- Crear los repos en GitHub si todavia no existen.
-- Agregar enlaces reales cuando esten publicados.
+- Agregar enlaces reales si algun proyecto del laboratorio se convierte en repo propio.
 - Decidir que proyectos conviene fijar en el perfil de GitHub.
 
-## Repos sugeridos
+## Repos sugeridos a futuro
 
-- `laboratorio-digital`: base diaria de trabajo.
-- `portfolio-proyectos`: indice publico.
 - `ensayos-ia-conciencia-sociedad`: archivo academico independiente, si se quiere separar del laboratorio.
