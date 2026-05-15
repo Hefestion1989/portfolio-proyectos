@@ -11,7 +11,7 @@ Este repositorio funciona como vidriera limpia: no tiene que contener todo el co
 - [`promptmaster-ai`](https://github.com/Hefestion1989/promptmaster-ai): herramienta avanzada para prompts con React/Gemini.
 - [`Prompts`](https://github.com/Hefestion1989/Prompts): taller simple y offline de prompts.
 - [`subjetividad-no-biologica`](https://github.com/Hefestion1989/subjetividad-no-biologica): archivo editorial sobre subjetividad no biologica.
-- [`ensayos-ia-conciencia-sociedad`](https://github.com/Hefestion1989/ensayos-ia-conciencia-sociedad): coleccion academica sobre IA, conciencia, subjetividad y gobernanza tecnologica.
+- `ensayos-ia-conciencia-sociedad`: coleccion academica incluida por ahora dentro de `laboratorio-digital`.
 - `academic-semantic-search`: buscador academico local, por ahora dentro de `laboratorio-digital`.
 - `pdf-concept-search`: prototipo de busqueda conceptual en PDFs, por ahora dentro de `laboratorio-digital`.
 
@@ -38,7 +38,3 @@ Herramientas para organizar documentos, PDFs y busquedas conceptuales.
 ### Archivo editorial
 
 Textos y colecciones formales sobre IA, conciencia, subjetividad y gobernanza tecnologica.
-
-### Ensayos y archivo editorial
-
-Repositorio o coleccion para textos formales, articulos y materiales de investigacion.
