@@ -1,40 +1,33 @@
 # Portfolio de proyectos
 
-Indice publico de proyectos, herramientas y archivos tecnicos.
+Indice publico de proyectos, herramientas y archivo editorial.
 
-Este repositorio funciona como vidriera limpia: no tiene que contener todo el codigo de trabajo diario, sino una seleccion ordenada de lo mas importante.
+La organizacion principal queda reducida a dos repos:
 
-## Espacios principales
+- [`laboratorio-digital`](https://github.com/Hefestion1989/laboratorio-digital): base de trabajo y archivo completo.
+- [`portfolio-proyectos`](https://github.com/Hefestion1989/portfolio-proyectos): vidriera e indice publico.
 
-- [`laboratorio-digital`](https://github.com/Hefestion1989/laboratorio-digital): base de trabajo para proyectos, prototipos y pruebas.
-- [`VeryCheck`](https://github.com/Hefestion1989/VeryCheck): producto principal de fact-checking y verificacion.
-- [`promptmaster-ai`](https://github.com/Hefestion1989/promptmaster-ai): herramienta avanzada para prompts con React/Gemini.
-- [`Prompts`](https://github.com/Hefestion1989/Prompts): taller simple y offline de prompts.
-- [`subjetividad-no-biologica`](https://github.com/Hefestion1989/subjetividad-no-biologica): archivo editorial sobre subjetividad no biologica.
-- `ensayos-ia-conciencia-sociedad`: coleccion academica incluida por ahora dentro de `laboratorio-digital`.
-- `academic-semantic-search`: buscador academico local, por ahora dentro de `laboratorio-digital`.
-- `pdf-concept-search`: prototipo de busqueda conceptual en PDFs, por ahora dentro de `laboratorio-digital`.
+## Dentro del laboratorio
+
+- `academic-semantic-search`: buscador academico local para documentos.
+- `office-copilot`: macros para usar ChatGPT desde Excel y Word.
+- `pdf-concept-search`: prototipo de busqueda conceptual en PDFs.
+- `procesamiento-txt`: flujo de limpieza y movimiento de archivos TXT.
+- `subjetividad-no-biologica`: ensayo sobre subjetividad artificial.
+- `ensayos-ia-conciencia-sociedad`: coleccion academica sobre IA, conciencia, subjetividad y gobernanza tecnologica.
 
 ## Criterio
 
 - El portfolio muestra y explica.
 - El laboratorio guarda y desarrolla.
-- Los repos editoriales se mantienen separados de los repos de software.
+- Los materiales editoriales viven dentro de `laboratorio-digital/archivo/editorial/`.
+- Los proyectos tecnicos viven dentro de `laboratorio-digital/proyectos/`.
 
-## Proyectos destacados
+## Perfil publico recomendado
 
-### VeryCheck
+Fijar en el perfil de GitHub:
 
-Producto principal orientado a verificacion, analisis y fact-checking.
+1. `laboratorio-digital`
+2. `portfolio-proyectos`
 
-### Laboratorio digital
-
-Espacio de trabajo para reunir proyectos nuevos, experimentos y scripts utiles.
-
-### Busqueda academica local
-
-Herramientas para organizar documentos, PDFs y busquedas conceptuales.
-
-### Archivo editorial
-
-Textos y colecciones formales sobre IA, conciencia, subjetividad y gobernanza tecnologica.
+Los repos antiguos pueden archivarse o borrarse si ya fueron incorporados al laboratorio.
