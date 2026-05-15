@@ -13,6 +13,9 @@ Este indice sirve para ordenar que proyectos se muestran publicamente y cuales v
 - `office-copilot`
 - `pdf-concept-search`
 - `procesamiento-txt`
+- `VeryCheck`
+- `promptmaster-ai`
+- `Prompts`
 - `subjetividad-no-biologica`
 - `ensayos-ia-conciencia-sociedad`
 
