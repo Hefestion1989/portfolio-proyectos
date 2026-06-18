@@ -10,6 +10,9 @@ Fuente principal: [perfil de Damián S. Gómez en Academia.edu](https://udelar.a
 
 ## IA y consciencia
 
+- [¿Es tan difícil el hard problem de la consciencia? Una mirada desde la emergencia, el organismo y los sistemas complejos](https://www.academia.edu/168835633/Es_tan_dif%C3%ADcil_el_hard_problem_de_la_consciencia_Una_mirada_desde_la_emergencia_el_organismo_y_los_sistemas_complejos)  
+  Ensayo de divulgación filosófica y psicológica sobre el hard problem, la experiencia subjetiva, la emergencia, el organismo situado y los sistemas complejos.
+
 - [Subjetividad artificial, genealogía cultural e identidad persistente](https://www.academia.edu/168386713/Subjetividad_artificial_genealog%C3%ADa_cultural_e_identidad_persistente)  
   Ensayo sobre IA, memoria, biografía, agencia y nuevas categorías entre herramienta y sujeto.
 
