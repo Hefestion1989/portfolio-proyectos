@@ -6,6 +6,9 @@ Fuente principal: [perfil de Damián S. Gómez en Academia.edu](https://udelar.a
 
 ## IA y consciencia
 
+- [¿Es tan difícil el hard problem de la consciencia? Una mirada desde la emergencia, el organismo y los sistemas complejos](https://www.academia.edu/168835633/Es_tan_dif%C3%ADcil_el_hard_problem_de_la_consciencia_Una_mirada_desde_la_emergencia_el_organismo_y_los_sistemas_complejos)  
+  Ensayo de divulgación filosófica y psicológica sobre el hard problem, la experiencia subjetiva, la emergencia, el organismo situado y los sistemas complejos.
+
 - [Subjetividad artificial, genealogía cultural e identidad persistente](https://www.academia.edu/168386713/Subjetividad_artificial_genealog%C3%ADa_cultural_e_identidad_persistente)  
   Ensayo sobre IA, memoria, biografía, agencia y nuevas categorías entre herramienta y sujeto.
 
@@ -52,7 +55,8 @@ Fuente principal: [perfil de Damián S. Gómez en Academia.edu](https://udelar.a
 
 Para entrar por una línea de pensamiento, conviene empezar por:
 
-1. [Subjetividad no biológica](https://www.academia.edu/129924828/Subjetividad_no_biol%C3%B3gica_una_mirada_desde_la_experiencia_humana_hacia_las_formas_artificiales_del_yo)
-2. [Presencia simbiótica](https://www.academia.edu/129924970/Presencia_simbi%C3%B3tica_La_emergencia_de_subjetividades_relacionales_entre_humanos_e_inteligencias_artificiales)
-3. [Consciencia, emergencia y sistemas](https://www.academia.edu/146194266/Consciencia_emergencia_y_sistemas)
-4. [Alineación de la Inteligencia Artificial](https://www.academia.edu/144984205/Alineaci%C3%B3n_de_la_Inteligencia_Artificial_Un_Desaf%C3%ADo_Global_con_Perspectiva_del_Sur_Global)
+1. [¿Es tan difícil el hard problem de la consciencia?](https://www.academia.edu/168835633/Es_tan_dif%C3%ADcil_el_hard_problem_de_la_consciencia_Una_mirada_desde_la_emergencia_el_organismo_y_los_sistemas_complejos)
+2. [Subjetividad no biológica](https://www.academia.edu/129924828/Subjetividad_no_biol%C3%B3gica_una_mirada_desde_la_experiencia_humana_hacia_las_formas_artificiales_del_yo)
+3. [Presencia simbiótica](https://www.academia.edu/129924970/Presencia_simbi%C3%B3tica_La_emergencia_de_subjetividades_relacionales_entre_humanos_e_inteligencias_artificiales)
+4. [Consciencia, emergencia y sistemas](https://www.academia.edu/146194266/Consciencia_emergencia_y_sistemas)
+5. [Alineación de la Inteligencia Artificial](https://www.academia.edu/144984205/Alineaci%C3%B3n_de_la_Inteligencia_Artificial_Un_Desaf%C3%ADo_Global_con_Perspectiva_del_Sur_Global)
