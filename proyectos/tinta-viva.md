@@ -17,7 +17,7 @@ Su foco está en construir personajes persistentes, vínculos, psicología, esce
 ## Enlaces
 
 - [Código fuente y documentación](https://github.com/Hefestion1989/tinta-viva)
-- [Descargar Tinta Viva 0.5.2 para Windows x64](https://github.com/Hefestion1989/tinta-viva/releases/tag/v0.5.2)
+- [Descargar Tinta Viva 0.6.0 para Windows x64](https://github.com/Hefestion1989/tinta-viva/releases/tag/v0.6.0)
 - [Licencia MIT](https://github.com/Hefestion1989/tinta-viva/blob/main/LICENSE)
 
-El repositorio no distribuye modelos de IA ni datos personales. Para generar texto se necesita un modelo cargado en LM Studio u otro servidor local compatible.
+La versión 0.6.0 agrega retratos privados para las identidades y hace visible el guardado de la persona activa. El repositorio no distribuye modelos de IA ni datos personales. Para generar texto se necesita un modelo cargado en LM Studio u otro servidor local compatible.

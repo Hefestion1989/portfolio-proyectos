@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Ensayos sobre IA y subjetividad</title>
+  <desc id="desc">Composición editorial abstracta</desc>
+  <rect width="900" height="560" rx="28" fill="#e9dfd7"/>
+  <circle cx="720" cy="112" r="190" fill="#d7c3ba" opacity=".65"/>
+  <circle cx="132" cy="508" r="200" fill="#b8d5d0" opacity=".75"/>
+  <path d="M594 87c-98 37-132 148-82 237 23 41 62 67 102 88 25 13 42 35 47 62h134c-3-43 15-70 39-103 33-44 50-100 40-154C852 102 712 42 594 87z" fill="#17343d"/>
+  <path d="M662 145c-50 17-76 60-70 109 4 35 25 65 55 83 22 13 36 34 37 58" fill="none" stroke="#e9dfd7" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="640" cy="225" r="8" fill="#df6b4e"/><circle cx="704" cy="188" r="8" fill="#df6b4e"/><circle cx="738" cy="264" r="8" fill="#df6b4e"/><circle cx="680" cy="315" r="8" fill="#df6b4e"/>
+  <path d="M640 225L704 188l34 76-58 51-40-90z" fill="none" stroke="#df6b4e" stroke-width="3"/>
+  <text x="72" y="92" fill="#0c766f" font-family="Arial" font-size="16" font-weight="700" letter-spacing="3">ENSAYOS</text>
+  <text x="72" y="165" fill="#10212b" font-family="Georgia" font-size="50">Subjetividad</text>
+  <text x="72" y="222" fill="#10212b" font-family="Georgia" font-size="50">no biológica</text>
+  <line x1="72" y1="260" x2="410" y2="260" stroke="#9d8c83"/>
+  <text x="72" y="304" fill="#53656f" font-family="Arial" font-size="18">Psicología · filosofía de la mente</text>
+  <text x="72" y="337" fill="#53656f" font-family="Arial" font-size="18">vínculos humano-IA · cultura</text>
+  <text x="72" y="434" fill="#10212b" font-family="Arial" font-size="14" font-weight="700">UNA MIRADA SITUADA DESDE URUGUAY</text>
+</svg>

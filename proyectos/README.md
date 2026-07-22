@@ -24,34 +24,25 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
   Entorno local para escritura libre, novelas interactivas y roleplay adulto. La aplicación no agrega filtros de contenido y conserva los textos en el navegador del usuario. Código abierto en Next.js.
 
-- `VeryCheck`  
-  Prototipo experimental de verificación, análisis y fact-checking asistido por inteligencia artificial.
+- [`VeryCheck`](https://github.com/Hefestion1989/VeryCheck): prototipo experimental de verificación, análisis y fact-checking asistido por inteligencia artificial.
 
-- `promptmaster-ai`  
-  Herramienta avanzada para mejorar prompts, pensada como entorno de trabajo con React, Vite y Gemini.
+- [`promptmaster-ai`](https://github.com/Hefestion1989/promptmaster-ai): herramienta avanzada para mejorar prompts, pensada como entorno de trabajo con React, Vite y Gemini.
 
-- `Prompts`  
-  Taller simple, estático y offline para mejorar prompts desde el navegador, sin cuenta ni API key.
+- [`Prompts`](https://github.com/Hefestion1989/Prompts): taller simple, estático y offline para mejorar prompts desde el navegador, sin cuenta ni API key.
 
-- `academic-semantic-search`  
-  Buscador académico local para explorar documentos y materiales de estudio con una lógica semántica.
+- [`buscador-academico-local`](https://github.com/Hefestion1989/buscador-academico-local): buscador académico local para explorar documentos y materiales de estudio con una lógica semántica.
 
-- `pdf-concept-search`  
-  Prototipo de búsqueda conceptual sobre PDFs, orientado a encontrar ideas y relaciones dentro de documentos.
+- [`pdf-concept-search`](https://github.com/Hefestion1989/laboratorio-digital/tree/main/proyectos/pdf-concept-search): prototipo de búsqueda conceptual sobre PDFs dentro de `laboratorio-digital`, orientado a encontrar ideas y relaciones dentro de documentos.
 
-- `office-copilot`  
-  Macros y pruebas para integrar asistencia de IA en flujos de Excel y Word.
+- [`office-copilot`](https://github.com/Hefestion1989/laboratorio-digital/tree/main/proyectos/office-copilot): macros y pruebas dentro de `laboratorio-digital` para integrar asistencia de IA en flujos de Excel y Word.
 
-- `procesamiento-txt`  
-  Flujo simple para limpiar, mover y registrar archivos de texto.
+- [`procesamiento-txt`](https://github.com/Hefestion1989/laboratorio-digital/tree/main/proyectos/procesamiento-txt): flujo simple dentro de `laboratorio-digital` para limpiar, mover y registrar archivos de texto.
 
 ## Archivo editorial vinculado
 
-- `subjetividad-no-biologica`  
-  Ensayo filosófico-psicológico sobre subjetividad artificial, vínculos humano-IA y formas no biológicas del yo.
+- [`subjetividad-no-biologica`](https://github.com/Hefestion1989/subjetividad-no-biologica): ensayo filosófico-psicológico sobre subjetividad artificial, vínculos humano-IA y formas no biológicas del yo.
 
-- `ensayos-ia-conciencia-sociedad`  
-  Colección académica sobre IA, consciencia, subjetividad, gobernanza tecnológica y sociedad.
+- [Ensayos sobre IA, consciencia y sociedad](../notas/ia-y-consciencia/README.md): colección académica sobre IA, consciencia, subjetividad, gobernanza tecnológica y sociedad.
 
 ## Criterio
 

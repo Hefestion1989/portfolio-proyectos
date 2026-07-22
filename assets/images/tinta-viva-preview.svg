@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Tinta Viva</title>
+  <desc id="desc">Representación neutral de una aplicación narrativa local</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10131b"/><stop offset="1" stop-color="#24203d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7c5cfc"/><stop offset="1" stop-color="#aa79ff"/></linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#bg)"/>
+  <rect x="0" y="0" width="190" height="560" rx="28" fill="#11141b"/>
+  <text x="28" y="48" fill="#9b8bff" font-family="Arial" font-size="14" font-weight="700" letter-spacing="3">TINTA</text>
+  <text x="28" y="78" fill="#ffffff" font-family="Georgia" font-size="29">Viva</text>
+  <g fill="#c7cbd6" font-family="Arial" font-size="14">
+    <text x="28" y="138">●  Conversación</text><text x="28" y="178">◆  Universo y canon</text>
+    <text x="28" y="218">♥  Perfil y personalidad</text><text x="28" y="258">◈  Memoria y diario</text>
+    <text x="28" y="298">▣  Galería</text><text x="28" y="338">◎  Mis identidades</text>
+  </g>
+  <rect x="22" y="386" width="146" height="68" rx="12" fill="#1b1e28"/>
+  <circle cx="48" cy="420" r="16" fill="url(#accent)"/><text x="76" y="418" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Luna</text><text x="76" y="438" fill="#8f95a5" font-family="Arial" font-size="11">29 años</text>
+  <rect x="222" y="32" width="644" height="56" rx="13" fill="#171a22"/><text x="246" y="66" fill="#fff" font-family="Arial" font-size="19" font-weight="700">Una escena nueva</text>
+  <rect x="222" y="112" width="418" height="138" rx="18" fill="#171a22" stroke="#2e3342"/>
+  <text x="246" y="145" fill="#9b8bff" font-family="Arial" font-size="12" font-weight="700">MI PERFIL</text>
+  <text x="246" y="180" fill="#e7e8ed" font-family="Arial" font-size="16">El primer mensaje puede iniciar</text>
+  <text x="246" y="207" fill="#e7e8ed" font-family="Arial" font-size="16">una historia enteramente local.</text>
+  <rect x="222" y="278" width="418" height="118" rx="18" fill="#1e1a2d" stroke="#393152"/>
+  <text x="246" y="311" fill="#c5b9ff" font-family="Arial" font-size="12" font-weight="700">LUNA</text>
+  <text x="246" y="346" fill="#e7e8ed" font-family="Arial" font-size="16">Personajes, memoria y continuidad</text>
+  <text x="246" y="373" fill="#e7e8ed" font-family="Arial" font-size="16">sin depender de una nube propia.</text>
+  <rect x="222" y="430" width="514" height="68" rx="14" fill="#0f1218" stroke="#343948"/><text x="248" y="471" fill="#747b8d" font-family="Arial" font-size="15">Escribí algo…</text>
+  <rect x="752" y="430" width="114" height="68" rx="14" fill="url(#accent)"/><text x="781" y="471" fill="#fff" font-family="Arial" font-size="15" font-weight="700">Enviar</text>
+  <rect x="666" y="112" width="200" height="284" rx="20" fill="#141721"/>
+  <circle cx="766" cy="208" r="62" fill="#2c2550"/><text x="735" y="226" fill="#9b8bff" font-family="Georgia" font-size="58">♥</text>
+  <text x="690" y="306" fill="#fff" font-family="Arial" font-size="20" font-weight="700">Luna, 29</text><text x="690" y="333" fill="#9b8bff" font-family="Arial" font-size="12">Conversando como Mi perfil</text>
+  <rect x="690" y="358" width="152" height="6" rx="3" fill="#2f3544"/><rect x="690" y="358" width="88" height="6" rx="3" fill="#7c5cfc"/>
+</svg>
