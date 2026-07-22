@@ -1,0 +1,8 @@
+title: "Damián Sebastián Gómez — Psicología, IA y proyectos digitales"
+description: "Proyectos, herramientas y ensayos desarrollados desde Montevideo, Uruguay."
+lang: es-UY
+locale: es_UY
+url: "https://hefestion1989.github.io"
+baseurl: "/portfolio-proyectos"
+github:
+  is_project_page: true

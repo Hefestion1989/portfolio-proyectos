@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f3e9"/><stop offset="1" stop-color="#e4eee9"/></linearGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c766f"/><stop offset="1" stop-color="#315b83"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <circle cx="1080" cy="80" r="270" fill="#cde0da" opacity=".75"/>
+  <circle cx="1040" cy="510" r="240" fill="url(#orb)"/>
+  <path d="M936 408c38-94 170-116 241-38" fill="none" stroke="#f7f3e9" stroke-width="5" opacity=".65"/>
+  <circle cx="949" cy="391" r="14" fill="#df6b4e"/><circle cx="1080" cy="366" r="14" fill="#df6b4e"/><circle cx="1147" cy="450" r="14" fill="#df6b4e"/>
+  <path d="M949 391l131-25 67 84" fill="none" stroke="#df6b4e" stroke-width="5"/>
+  <text x="78" y="94" fill="#0c766f" font-family="Arial" font-size="21" font-weight="700" letter-spacing="4">MONTEVIDEO · URUGUAY</text>
+  <text x="78" y="204" fill="#10212b" font-family="Georgia" font-size="72">Damián Sebastián</text>
+  <text x="78" y="285" fill="#10212b" font-family="Georgia" font-size="72">Gómez</text>
+  <line x1="78" y1="333" x2="730" y2="333" stroke="#b5afa5" stroke-width="2"/>
+  <text x="78" y="404" fill="#10212b" font-family="Arial" font-size="32" font-weight="700">Psicología · IA · proyectos digitales</text>
+  <text x="78" y="462" fill="#53656f" font-family="Arial" font-size="24">Herramientas públicas, software local-first</text>
+  <text x="78" y="501" fill="#53656f" font-family="Arial" font-size="24">y ensayos con contexto humano.</text>
+  <rect x="78" y="548" width="54" height="8" rx="4" fill="#df6b4e"/><rect x="144" y="548" width="108" height="8" rx="4" fill="#0c766f"/><rect x="264" y="548" width="34" height="8" rx="4" fill="#315b83"/>
+</svg>

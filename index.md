@@ -1,5 +1,6 @@
 ---
 title: Vitrina digital
+permalink: /resumen/
 ---
 
 # Vitrina digital
@@ -16,13 +17,14 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 
 - [Notas y trabajos](notas/): índice curado de ensayos, artículos y textos publicados.
 - [Proyectos](proyectos/): herramientas, prototipos y repositorios técnicos.
-- [Archivo](archivo/): materiales secundarios o históricos.
 
 ## Proyectos destacados
 
 - [Mapa Comunitario](proyectos/mapa-comunitario.html): buscador abierto para conectar personas con recursos de salud mental, apoyo social, educación, trabajo y emergencias en Uruguay.
 - [Tinta Viva](proyectos/tinta-viva.html): aplicación de escritorio para escritura libre, personajes y continuidad narrativa con modelos ejecutados localmente.
-- [Tinta Privada](proyectos/tinta-privada.html): entorno privado para relatos y roleplay adulto, sin una nube propia ni filtros añadidos por la aplicación.
+- [Ensayos sobre IA y consciencia](notas/ia-y-consciencia/): textos sobre subjetividad artificial, vínculos humano-IA y filosofía de la mente.
+
+Tinta Privada continúa disponible como proyecto independiente de escritura y roleplay local, dentro del [índice completo de proyectos](proyectos/).
 
 ## Ejes de lectura
 
