@@ -16,6 +16,14 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
 ## Herramientas y prototipos
 
+- [Tinta Viva](tinta-viva.html)
+
+  Aplicación de escritorio local-first para crear personajes, sostener continuidad narrativa y escribir con modelos locales mediante LM Studio. Código abierto en .NET, Avalonia y SQLite; incluye una descarga autónoma para Windows x64.
+
+- [Tinta Privada](tinta-privada.html)
+
+  Entorno web local para escritura y roleplay. La interfaz se conecta a LM Studio y conserva los textos en el navegador del usuario. Código abierto en Next.js.
+
 - `VeryCheck`  
   Prototipo experimental de verificación, análisis y fact-checking asistido por inteligencia artificial.
 
