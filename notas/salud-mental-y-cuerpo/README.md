@@ -2,6 +2,10 @@
 
 Textos sobre organismo, psicología, psiquiatría, metabolismo, sueño, dolor e inflamación desde una mirada integrada.
 
+## Herramienta relacionada
+
+- [Mapa Comunitario](../../proyectos/mapa-comunitario.md): buscador de vías de contacto de salud mental y otros recursos sociales de Uruguay, con fuentes y fechas de verificación.
+
 ## Trabajos
 
 - [El cuerpo en red](https://www.academia.edu/168585066/El_cuerpo_en_red)  

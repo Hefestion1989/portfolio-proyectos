@@ -16,6 +16,10 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
 ## Herramientas y prototipos
 
+- [Mapa Comunitario](mapa-comunitario.html)
+
+  Aplicación web abierta para encontrar vías de contacto de salud mental, violencia, consumo, situación de calle, trabajo, educación, trámites y emergencias en Uruguay. Muestra fuente y fecha de verificación, permite buscar recursos barriales y conserva favoritos y notas en el navegador.
+
 - [Tinta Viva](tinta-viva.html)
 
   Aplicación de escritorio local-first para narradores: personajes persistentes, universos, roleplay y continuidad con modelos locales. Admite narrativa general y adulta; el código abierto está construido con .NET, Avalonia y SQLite.

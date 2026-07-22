@@ -16,6 +16,7 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 
 ## Proyectos destacados
 
+- [Mapa Comunitario](proyectos/mapa-comunitario.md): buscador abierto para conectar personas con recursos de salud mental, apoyo social, educación, trabajo y emergencias en Uruguay.
 - [Tinta Viva](proyectos/tinta-viva.md): aplicación de escritorio para escritura libre, personajes y continuidad narrativa con modelos ejecutados localmente.
 - [Tinta Privada](proyectos/tinta-privada.md): entorno privado para relatos y roleplay adulto, sin una nube propia ni filtros añadidos por la aplicación.
 
@@ -30,6 +31,7 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 
 - [`laboratorio-digital`](https://github.com/Hefestion1989/laboratorio-digital): base de trabajo y archivo completo.
 - [`portfolio-proyectos`](https://github.com/Hefestion1989/portfolio-proyectos): esta vitrina pública.
+- [`mapa-comunitario`](https://github.com/Hefestion1989/mapa-comunitario): directorio verificable de recursos comunitarios de Uruguay.
 - [`tinta-viva`](https://github.com/Hefestion1989/tinta-viva): compañía narrativa local-first para Windows.
 - [`tinta-privada`](https://github.com/Hefestion1989/tinta-privada): espacio privado local-first para escritura y roleplay.
 - [`VeryCheck`](https://github.com/Hefestion1989/VeryCheck): verificación y fact-checking experimental.
