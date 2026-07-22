@@ -20,8 +20,8 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 
 ## Proyectos destacados
 
-- [Tinta Viva](proyectos/tinta-viva.html): aplicación de escritorio local para personajes, continuidad narrativa y escritura asistida con LM Studio.
-- [Tinta Privada](proyectos/tinta-privada.html): entorno web local para escritura y roleplay con modelos ejecutados en la propia computadora.
+- [Tinta Viva](proyectos/tinta-viva.html): aplicación de escritorio para escritura libre, personajes y continuidad narrativa con modelos ejecutados localmente.
+- [Tinta Privada](proyectos/tinta-privada.html): entorno privado para relatos y roleplay adulto, sin una nube propia ni filtros añadidos por la aplicación.
 
 ## Ejes de lectura
 
