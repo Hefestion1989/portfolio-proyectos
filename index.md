@@ -18,6 +18,11 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 - [Proyectos](proyectos/): herramientas, prototipos y repositorios técnicos.
 - [Archivo](archivo/): materiales secundarios o históricos.
 
+## Proyectos destacados
+
+- [Tinta Viva](proyectos/tinta-viva.html): aplicación de escritorio local para personajes, continuidad narrativa y escritura asistida con LM Studio.
+- [Tinta Privada](proyectos/tinta-privada.html): entorno web local para escritura y roleplay con modelos ejecutados en la propia computadora.
+
 ## Ejes de lectura
 
 - [IA y consciencia](notas/ia-y-consciencia/): subjetividad artificial, consciencia emergente, vínculos humano-IA y filosofía de la mente.
@@ -29,6 +34,8 @@ Soy Damián Sebastián Gómez, estudiante de Psicología en la UdelaR, con forma
 
 - [`laboratorio-digital`](https://github.com/Hefestion1989/laboratorio-digital): base de trabajo y archivo completo.
 - [`portfolio-proyectos`](https://github.com/Hefestion1989/portfolio-proyectos): esta vitrina pública.
+- [`tinta-viva`](https://github.com/Hefestion1989/tinta-viva): compañía narrativa local-first para Windows.
+- [`tinta-privada`](https://github.com/Hefestion1989/tinta-privada): espacio privado local-first para escritura y roleplay.
 - [`VeryCheck`](https://github.com/Hefestion1989/VeryCheck): verificación y fact-checking experimental.
 - [`promptmaster-ai`](https://github.com/Hefestion1989/promptmaster-ai): herramienta avanzada para prompts.
 - [`Prompts`](https://github.com/Hefestion1989/Prompts): taller simple y offline de prompts.
