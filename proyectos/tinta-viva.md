@@ -17,7 +17,7 @@ Su foco está en construir personajes persistentes, vínculos, psicología, esce
 ## Enlaces
 
 - [Código fuente y documentación](https://github.com/Hefestion1989/tinta-viva)
-- [Descargar Tinta Viva 0.6.1 para Windows x64](https://github.com/Hefestion1989/tinta-viva/releases/tag/v0.6.1)
+- [Descargar Tinta Viva 0.8.2 para Windows x64](https://github.com/Hefestion1989/tinta-viva/releases/tag/v0.8.2)
 - [Licencia MIT](https://github.com/Hefestion1989/tinta-viva/blob/main/LICENSE)
 
-La versión 0.6.1 agrega accesos directos para editar al personaje activo, sumarle imágenes y usar la seleccionada como retrato. También conserva los retratos privados de las identidades y el guardado visible de la persona activa. El repositorio no distribuye modelos de IA ni datos personales. Para generar texto se necesita un modelo cargado en LM Studio u otro servidor local compatible.
+La versión 0.8.2 mejora la recuperación automática de Motor Tinta, estabiliza la generación con LM Studio y muestra con claridad los errores del motor. También conserva los personajes, conversaciones, imágenes y la configuración ya existente. El repositorio no distribuye modelos de IA ni datos personales. Para generar texto se necesita un modelo cargado en LM Studio u otro servidor compatible.
