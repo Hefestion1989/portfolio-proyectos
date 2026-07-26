@@ -30,6 +30,8 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
 - [`Prompts`](https://github.com/Hefestion1989/Prompts): taller simple, estático y offline para mejorar prompts desde el navegador, sin cuenta ni API key.
 
+- [Auditoría Local PC](auditoria-local-pc.md): herramienta para Windows que genera informes locales sobre CPU, RAM, disco, batería y procesos. No lee historial, URLs, teclas, chats ni contraseñas, y no realiza conexiones de red.
+
 - [`buscador-academico-local`](https://github.com/Hefestion1989/buscador-academico-local): buscador académico local para explorar documentos y materiales de estudio con una lógica semántica.
 
 - [`pdf-concept-search`](https://github.com/Hefestion1989/laboratorio-digital/tree/main/proyectos/pdf-concept-search): prototipo de búsqueda conceptual sobre PDFs dentro de `laboratorio-digital`, orientado a encontrar ideas y relaciones dentro de documentos.
