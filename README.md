@@ -13,6 +13,8 @@ Soy estudiante de Psicología en la UdelaR, con formación en Recursos Humanos e
 
 ## Proyectos destacados
 
+- [Apunte Claro](proyectos/apunte-claro.md): herramienta abierta para preparar
+  resúmenes académicos con materiales propios y la IA que cada estudiante elija.
 - [Mapa Comunitario](proyectos/mapa-comunitario.md): buscador abierto de recursos de salud mental, apoyo social, educación, trabajo y emergencias en Uruguay.
 - [Tinta Viva](proyectos/tinta-viva.md): aplicación local-first para escritura, personajes y continuidad narrativa con modelos locales.
 - [Auditoría Local PC](proyectos/auditoria-local-pc.md): diagnóstico local de CPU, memoria, disco, batería y procesos para Windows, sin recopilar actividad personal ni enviar datos por red.
@@ -23,6 +25,8 @@ Tinta Privada continúa disponible como proyecto independiente de escritura y ro
 ## Repos vinculados
 
 - [`portfolio-proyectos`](https://github.com/Hefestion1989/portfolio-proyectos): esta vitrina pública.
+- [`apunte-claro`](https://github.com/Hefestion1989/apunte-claro): método abierto
+  para preparar materiales y pedidos académicos antes de usar una IA.
 - [`mapa-comunitario`](https://github.com/Hefestion1989/mapa-comunitario): directorio verificable de recursos comunitarios de Uruguay.
 - [`tinta-viva`](https://github.com/Hefestion1989/tinta-viva): compañía narrativa local-first para Windows.
 - [`auditoria-local-pc`](https://github.com/Hefestion1989/auditoria-local-pc): diagnóstico de rendimiento privado para Windows, con informes locales y código abierto.
