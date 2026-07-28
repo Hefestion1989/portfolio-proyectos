@@ -12,6 +12,12 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
 ## Herramientas y prototipos
 
+- [Apunte Claro](apunte-claro.md)
+
+  Herramienta abierta para transformar materiales propios en un paquete de
+  estudio preciso para ChatGPT, Gemini u otra IA. Ayuda a construir resúmenes
+  cuidadosos y metódicos, sin cuenta propia y sin enviar archivos automáticamente.
+
 - [Mapa Comunitario](mapa-comunitario.md)
 
   Aplicación web abierta para encontrar vías de contacto de salud mental, violencia, consumo, situación de calle, trabajo, educación, trámites y emergencias en Uruguay. Muestra fuente y fecha de verificación, permite buscar recursos barriales y conserva favoritos y notas en el navegador.
