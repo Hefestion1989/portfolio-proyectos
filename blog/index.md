@@ -30,6 +30,7 @@ Un lugar para compartir reflexiones, textos técnicos, lecturas y el recorrido d
 {% for article in site.data.medium.articles %}
 <article>
 <h3><a href="{{ article.url | escape }}">{{ article.title | escape }}</a></h3>
+{% if article.date %}<p class="post-meta">{{ article.date | date: "%d/%m/%Y" }} · Medium</p>{% endif %}
 <p>{{ article.description | escape }}</p>
 <p><a href="{{ article.url | escape }}">Leer en Medium</a></p>
 </article>

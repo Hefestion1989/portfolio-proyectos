@@ -18,9 +18,10 @@ function publicationUrl(value) {
 function renderMedium() {
   if (!medium.profile_url) return "";
   const profile = publicationUrl(medium.profile_url);
-  const articles = medium.articles.map(({ title, description, url }) => {
+  const articles = medium.articles.map(({ title, description, url, date }) => {
     const link = publicationUrl(url);
-    return `<article><h3><a href="${link}">${escapeHtml(title)}</a></h3><p>${escapeHtml(description || "")}</p><p><a href="${link}">Leer en Medium</a></p></article>`;
+    const published = date ? `<p class="post-meta"><time datetime="${escapeHtml(date)}">${escapeHtml(date.split("-").reverse().join("/"))}</time> · Medium</p>` : "";
+    return `<article><h3><a href="${link}">${escapeHtml(title)}</a></h3>${published}<p>${escapeHtml(description || "")}</p><p><a href="${link}">Leer en Medium</a></p></article>`;
   });
   return `<section id="medium" aria-labelledby="medium-title"><h2 id="medium-title">Mis escritos en Medium</h2><p><a href="${profile}">Ver todas las publicaciones en Medium</a></p>${articles.join("\n")}</section>`;
 }
