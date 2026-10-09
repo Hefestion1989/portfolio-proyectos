@@ -7,6 +7,23 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const output = resolve(root, "dist");
 const siteUrl = new URL(process.env.SITES_URL || "https://damian-proyectos.hefestion.chatgpt.site/");
 const layout = await readFile(resolve(root, "_layouts/default.html"), "utf8");
+const medium = JSON.parse(await readFile(resolve(root, "_data/medium.json"), "utf8"));
+function publicationUrl(value) {
+  const url = new URL(value);
+  if (url.protocol !== "https:" || url.username || url.password) {
+    throw new Error("Los enlaces de publicaciones deben usar HTTPS y no incluir credenciales");
+  }
+  return escapeHtml(url.href);
+}
+function renderMedium() {
+  if (!medium.profile_url) return "";
+  const profile = publicationUrl(medium.profile_url);
+  const articles = medium.articles.map(({ title, description, url }) => {
+    const link = publicationUrl(url);
+    return `<article><h3><a href="${link}">${escapeHtml(title)}</a></h3><p>${escapeHtml(description || "")}</p><p><a href="${link}">Leer en Medium</a></p></article>`;
+  });
+  return `<section id="medium" aria-labelledby="medium-title"><h2 id="medium-title">Mis escritos en Medium</h2><p><a href="${profile}">Ver todas las publicaciones en Medium</a></p>${articles.join("\n")}</section>`;
+}
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Montevideo" }).format(new Date());
 const posts = [];
 const postPaths = new Set();
@@ -79,6 +96,7 @@ async function buildDirectory(directory) {
       const { metadata, markdown } = parsePage(await readFile(source, "utf8"));
       const content = path === "blog/index.md"
         ? markdown.replace(/<!-- entradas-del-cuaderno -->[\s\S]*?<!-- fin-entradas-del-cuaderno -->/, () => renderPostIndex())
+          .replace(/<!-- publicaciones-medium -->[\s\S]*?<!-- fin-publicaciones-medium -->/, () => renderMedium())
         : markdown;
       await mkdir(dirname(target), { recursive: true });
       await writeFile(target, renderPage(metadata, content, path.replace(/\.md$/, ".html").replace(/index\.html$/, "")));

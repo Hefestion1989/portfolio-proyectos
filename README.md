@@ -57,3 +57,11 @@ El build usa `https://damian-proyectos.hefestion.chatgpt.site/` para las URLs ca
 ## Agregar un texto propio
 
 Guardá el texto en `_posts/AAAA-MM-DD-titulo.md` siguiendo la [guía del cuaderno](_posts/README.md). El índice del blog se actualiza al generar el sitio. Puede ser una reflexión breve, una guía técnica o un relato sobre un proyecto; no necesita convertirse en un trabajo académico. Las publicaciones externas se enlazan desde `blog/index.md` o `notas/`, conservando sus direcciones originales. El build no sincroniza ni modifica GitHub o Academia.edu.
+
+## Escritos de Medium
+
+`_data/medium.json` permite conectar el perfil de Medium y mostrar una selección de artículos en el blog, con título, presentación breve y enlace a la publicación original. La sección aparece al completar `profile_url`; mientras falta el enlace, se omite del sitio público.
+
+Cada elemento de `articles` tiene los campos `title`, `description` y `url`. La lista también funciona en GitHub Pages mediante Jekyll. No copia el texto completo ni sincroniza nuevas entradas automáticamente: el enlace al perfil permite recorrer todas las publicaciones, y la selección se actualiza en este archivo. El perfil conectado es [@DamianSebastianGomez](https://medium.com/@DamianSebastianGomez).
+
+El feed público correspondiente es `https://medium.com/feed/@DamianSebastianGomez`. En el entorno actual su lectura devolvió HTTP 403; por eso la selección no incluye todavía títulos importados. El acceso al perfil funciona como enlace en la web generada, sin depender de consultar el feed durante el build.

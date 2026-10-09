@@ -22,6 +22,22 @@ Un lugar para compartir reflexiones, textos técnicos, lecturas y el recorrido d
 {% endif %}
 <!-- fin-entradas-del-cuaderno -->
 
+<!-- publicaciones-medium -->
+{% if site.data.medium.profile_url %}
+<section id="medium" aria-labelledby="medium-title">
+<h2 id="medium-title">Mis escritos en Medium</h2>
+<p><a href="{{ site.data.medium.profile_url | escape }}">Ver todas las publicaciones en Medium</a></p>
+{% for article in site.data.medium.articles %}
+<article>
+<h3><a href="{{ article.url | escape }}">{{ article.title | escape }}</a></h3>
+<p>{{ article.description | escape }}</p>
+<p><a href="{{ article.url | escape }}">Leer en Medium</a></p>
+</article>
+{% endfor %}
+</section>
+{% endif %}
+<!-- fin-publicaciones-medium -->
+
 ## Lecturas para empezar
 
 ### Una voz en el bucle
@@ -55,4 +71,5 @@ Las fichas de los proyectos reúnen explicaciones de uso, límites y enlaces a s
 
 - [Índice completo de ensayos y publicaciones](../notas/).
 - [Perfil en Academia.edu](https://udelar.academia.edu/DamianGomez).
+- [Escritos en Medium](https://medium.com/@DamianSebastianGomez).
 - [Proyectos y código en GitHub](https://github.com/Hefestion1989).
