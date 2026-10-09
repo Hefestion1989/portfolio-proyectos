@@ -7,6 +7,27 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const output = resolve(root, "dist");
 const siteUrl = new URL(process.env.SITES_URL || "https://damian-proyectos.hefestion.chatgpt.site/");
 const layout = await readFile(resolve(root, "_layouts/default.html"), "utf8");
+const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Montevideo" }).format(new Date());
+const posts = [];
+const postPaths = new Set();
+for (const entry of await readdir(resolve(root, "_posts"))) {
+  if (entry === "README.md") continue;
+  const match = entry.match(/^(\d{4}-\d{2}-\d{2})-.+\.md$/);
+  if (!match) throw new Error(`Nombre de entrada inválido: ${entry}`);
+  const date = match[1];
+  if (!Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0, 10) !== date) {
+    throw new Error(`Fecha de entrada inválida: ${entry}`);
+  }
+  if (date > today) continue;
+  const page = parsePage(await readFile(resolve(root, "_posts", entry), "utf8"));
+  const path = page.metadata.permalink;
+  if (!/^\/blog\/[a-z0-9][a-z0-9-]*\.html$/.test(path || "") || path === "/blog/index.html" || postPaths.has(path)) {
+    throw new Error(`Enlace de entrada inválido o repetido: ${entry}`);
+  }
+  postPaths.add(path);
+  posts.push({ ...page, date, path });
+}
+posts.sort((a, b) => b.date.localeCompare(a.date) || a.path.localeCompare(b.path));
 
 function escapeHtml(value) {
   return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;")
@@ -32,9 +53,19 @@ function renderPage(metadata, markdown, path) {
     .replace(/^.*<link rel="canonical".*$/m, `  <link rel="canonical" href="${escapeHtml(new URL(path, siteUrl).href)}">`)
     .replace(/\{\{\s*'([^']+)'\s*\|\s*relative_url\s*\}\}/g, (_, path) => path)
     .replace(/\{\{\s*site\.lang\s*\|\s*default:\s*'es-UY'\s*\}\}/g, "es-UY")
-    .replace(/\{\{\s*page\.description\s*\|\s*default:\s*site\.description\s*\|\s*escape\s*\}\}/g, description)
-    .replace(/\{\{\s*page\.title\s*\}\}/g, title)
-    .replace(/\{\{\s*content\s*\}\}/g, marked.parse(markdown));
+    .replace(/\{\{\s*page\.description\s*\|\s*default:\s*site\.description\s*\|\s*escape\s*\}\}/g, () => description)
+    .replace(/\{\{\s*page\.title\s*\}\}/g, () => title)
+    .replace(/\{\{\s*content\s*\}\}/g, () => marked.parse(markdown));
+}
+
+function renderPostIndex() {
+  if (!posts.length) return "";
+  const items = posts.map(({ metadata, date, path }) => {
+    const category = metadata.category ? ` · ${escapeHtml(metadata.category)}` : "";
+    const description = metadata.description ? `<p>${escapeHtml(metadata.description)}</p>` : "";
+    return `<article><h3><a href="${path}">${escapeHtml(metadata.title)}</a></h3><p class="post-meta"><time datetime="${date}">${date.split("-").reverse().join("/")}</time>${category}</p>${description}</article>`;
+  });
+  return `<section aria-labelledby="entradas-title"><h2 id="entradas-title">Entradas del cuaderno</h2>${items.join("\n")}</section>`;
 }
 
 async function buildDirectory(directory) {
@@ -46,8 +77,11 @@ async function buildDirectory(directory) {
       const path = relative(root, source).split(sep).join("/");
       const target = resolve(output, path.replace(/\.md$/, ".html"));
       const { metadata, markdown } = parsePage(await readFile(source, "utf8"));
+      const content = path === "blog/index.md"
+        ? markdown.replace(/<!-- entradas-del-cuaderno -->[\s\S]*?<!-- fin-entradas-del-cuaderno -->/, () => renderPostIndex())
+        : markdown;
       await mkdir(dirname(target), { recursive: true });
-      await writeFile(target, renderPage(metadata, markdown, path.replace(/\.md$/, ".html").replace(/index\.html$/, "")));
+      await writeFile(target, renderPage(metadata, content, path.replace(/\.md$/, ".html").replace(/index\.html$/, "")));
     }
   }
 }
@@ -60,6 +94,12 @@ await writeFile(resolve(output, "index.html"), homepage.replaceAll(
 ));
 await cp(resolve(root, "assets"), resolve(output, "assets"), { recursive: true });
 await cp(resolve(root, ".openai/hosting.json"), resolve(output, ".openai/hosting.json"));
-for (const section of ["archivo", "notas", "proyectos"]) {
+for (const section of ["archivo", "notas", "proyectos", "blog"]) {
   await buildDirectory(resolve(root, section));
+}
+for (const { metadata, markdown, path, date } of posts) {
+  const category = metadata.category ? ` · ${escapeHtml(metadata.category)}` : "";
+  const dateLabel = date.split("-").reverse().join("/");
+  const byline = `<p class="post-meta"><time datetime="${date}">${dateLabel}</time>${category}</p>\n\n`;
+  await writeFile(resolve(output, path.slice(1)), renderPage(metadata, byline + markdown, path.slice(1)));
 }

@@ -8,6 +8,7 @@ Soy estudiante de Psicología en la UdelaR, con formación en Recursos Humanos e
 
 ## Entradas principales
 
+- [Blog y cuaderno](https://damian-proyectos.hefestion.chatgpt.site/blog/): reflexiones, textos técnicos y una selección de publicaciones en otras plataformas.
 - [Herramientas](https://damian-proyectos.hefestion.chatgpt.site/#herramientas): estudio, recursos comunitarios, prompts, verificación y diagnóstico local.
 - [Escritura](https://damian-proyectos.hefestion.chatgpt.site/#escritura): Cronista, Tinta Viva y Tinta Privada.
 - [Ensayos y escritos](https://damian-proyectos.hefestion.chatgpt.site/#ensayos): publicaciones organizadas por tema.
@@ -49,6 +50,10 @@ Tinta Privada continúa disponible como proyecto independiente de escritura y ro
 
 ## Build para ChatGPT Sites
 
-`npm ci && npm run build:sites` genera `dist/`: conserva la portada HTML y las imágenes, y convierte las páginas Markdown de `archivo/`, `notas/` y `proyectos/` a HTML. GitHub Pages continúa usando su configuración Jekyll. Los enlaces de herramientas apuntan a sus direcciones públicas conocidas: Sites para Apunte Claro y Cronista, GitHub Pages para las demás aplicaciones web, y fichas o repositorios para las aplicaciones locales.
+`npm ci && npm run build:sites` genera `dist/`: conserva la portada HTML y las imágenes, y convierte las páginas Markdown de `archivo/`, `notas/`, `proyectos/`, `blog/` y las entradas de `_posts/` a HTML. GitHub Pages continúa usando su configuración Jekyll. Los enlaces de herramientas apuntan a sus direcciones públicas conocidas: Sites para Apunte Claro y Cronista, GitHub Pages para las demás aplicaciones web, y fichas o repositorios para las aplicaciones locales. Los otros Sites que ya existen podrán enlazarse al confirmar sus direcciones públicas.
 
 El build usa `https://damian-proyectos.hefestion.chatgpt.site/` para las URLs canónicas y la imagen de vista previa. Podés cambiar ese origen con la variable `SITES_URL`; los metadatos de GitHub Pages en el archivo fuente se conservan. No cambia automáticamente el Site publicado: hace falta conectar estos archivos con el proyecto correspondiente y publicar la actualización desde Sites.
+
+## Agregar un texto propio
+
+Guardá el texto en `_posts/AAAA-MM-DD-titulo.md` siguiendo la [guía del cuaderno](_posts/README.md). El índice del blog se actualiza al generar el sitio. Puede ser una reflexión breve, una guía técnica o un relato sobre un proyecto; no necesita convertirse en un trabajo académico. Las publicaciones externas se enlazan desde `blog/index.md` o `notas/`, conservando sus direcciones originales. El build no sincroniza ni modifica GitHub o Academia.edu.

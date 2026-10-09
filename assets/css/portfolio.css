@@ -150,6 +150,7 @@ footer a { text-underline-offset: 4px; }
   font-size: 17px;
 }
 .content-shell p { margin: 0 0 20px; }
+.content-shell .post-meta { color: var(--muted); font-size: 14px; }
 .content-shell ul,
 .content-shell ol { padding-left: 1.4rem; }
 .content-shell li { margin-bottom: 10px; }
