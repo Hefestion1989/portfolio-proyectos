@@ -16,6 +16,10 @@ Mapa público de herramientas, prototipos y repositorios vinculados al laborator
 
 ## Herramientas y prototipos
 
+- [Cronista](cronista.html)
+
+  Mesa de trabajo para investigar y escribir con fuentes, evidencias, capítulos y manuscritos conectados. [Abrir la aplicación](https://cronista-estudio.hefestion.chatgpt.site/); los proyectos se guardan en el navegador.
+
 - [Apunte Claro](apunte-claro.html)
 
   Herramienta abierta para transformar materiales propios en un paquete de

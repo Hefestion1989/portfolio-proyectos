@@ -1,4 +1,4 @@
-# Vitrina digital
+# Hub de herramientas, escritura y ensayos
 
 Archivo público de proyectos, notas, ensayos y trabajos académicos de Damián Sebastián Gómez. Es una puerta de entrada a herramientas, escritura e investigación sobre inteligencia artificial, psicología, salud mental, cultura, subjetividad y tecnología.
 
@@ -7,6 +7,12 @@ Archivo público de proyectos, notas, ensayos y trabajos académicos de Damián 
 Soy estudiante de Psicología en la UdelaR, con formación en Recursos Humanos e interés en inteligencia artificial, subjetividad, salud mental, cultura científica y tecnología. Esta página reúne proyectos abiertos y trabajo intelectual en desarrollo.
 
 ## Entradas principales
+
+- [Herramientas](https://damian-proyectos.hefestion.chatgpt.site/#herramientas): estudio, recursos comunitarios, prompts, verificación y diagnóstico local.
+- [Escritura](https://damian-proyectos.hefestion.chatgpt.site/#escritura): Cronista, Tinta Viva y Tinta Privada.
+- [Ensayos y escritos](https://damian-proyectos.hefestion.chatgpt.site/#ensayos): publicaciones organizadas por tema.
+
+La dirección pública del hub es [damian-proyectos.hefestion.chatgpt.site](https://damian-proyectos.hefestion.chatgpt.site/). Los cambios de esta rama deben publicarse en ese proyecto para aparecer allí.
 
 - [Notas y trabajos](notas/README.md): índice curado de ensayos, artículos y textos publicados.
 - [Proyectos](proyectos/README.md): herramientas, prototipos y repositorios técnicos.
@@ -43,4 +49,6 @@ Tinta Privada continúa disponible como proyecto independiente de escritura y ro
 
 ## Build para ChatGPT Sites
 
-`npm ci && npm run build:sites` genera `dist/`: conserva la portada HTML y las imágenes, y convierte las páginas Markdown de `archivo/`, `notas/` y `proyectos/` a HTML. GitHub Pages continúa usando su configuración Jekyll. Los enlaces existentes a GitHub Pages y otros proyectos se conservan hasta tener nuevos dominios. La publicación requiere vincular este repositorio a un proyecto de Sites.
+`npm ci && npm run build:sites` genera `dist/`: conserva la portada HTML y las imágenes, y convierte las páginas Markdown de `archivo/`, `notas/` y `proyectos/` a HTML. GitHub Pages continúa usando su configuración Jekyll. Los enlaces de herramientas apuntan a sus direcciones públicas conocidas: Sites para Apunte Claro y Cronista, GitHub Pages para las demás aplicaciones web, y fichas o repositorios para las aplicaciones locales.
+
+El build usa `https://damian-proyectos.hefestion.chatgpt.site/` para las URLs canónicas y la imagen de vista previa. Podés cambiar ese origen con la variable `SITES_URL`; los metadatos de GitHub Pages en el archivo fuente se conservan. No cambia automáticamente el Site publicado: hace falta conectar estos archivos con el proyecto correspondiente y publicar la actualización desde Sites.

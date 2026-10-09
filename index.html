@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Damián Sebastián Gómez — Psicología, IA y proyectos digitales</title>
+    <title>Damián Sebastián Gómez — Herramientas, escritura y ensayos</title>
     <meta
       name="description"
-      content="Proyectos, herramientas y ensayos desarrollados desde Montevideo, Uruguay: psicología, inteligencia artificial, escritura y tecnología con contexto humano."
+      content="Un punto de encuentro para herramientas abiertas, proyectos de escritura y ensayos sobre psicología, inteligencia artificial y sociedad. Desde Montevideo, Uruguay."
     />
     <meta name="theme-color" content="#0b1720" />
     <link
@@ -16,10 +16,10 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_UY" />
     <meta property="og:site_name" content="Damián Sebastián Gómez" />
-    <meta property="og:title" content="Psicología, IA y proyectos digitales" />
+    <meta property="og:title" content="Herramientas, escritura y ensayos" />
     <meta
       property="og:description"
-      content="Herramientas públicas, software local-first y ensayos desarrollados desde Montevideo, Uruguay."
+      content="Herramientas para estudiar y crear, proyectos de escritura y ensayos desde Montevideo, Uruguay."
     />
     <meta
       property="og:url"
@@ -33,16 +33,16 @@
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
-      content="Damián Sebastián Gómez — Psicología, IA y proyectos digitales"
+      content="Damián Sebastián Gómez — Herramientas, escritura y ensayos"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Damián Sebastián Gómez — Psicología, IA y proyectos digitales"
+      content="Damián Sebastián Gómez — Herramientas, escritura y ensayos"
     />
     <meta
       name="twitter:description"
-      content="Herramientas públicas, software local-first y ensayos desde Uruguay."
+      content="Herramientas para estudiar y crear, proyectos de escritura y ensayos desde Uruguay."
     />
     <meta
       name="twitter:image"
@@ -53,28 +53,30 @@
   <body>
     <a class="skip-link" href="#contenido">Ir al contenido</a>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Inicio">
+      <a class="brand" href="#inicio" aria-label="Inicio">
         <span class="brand-mark">DS</span> <span>Damián Sebastián Gómez</span>
       </a>
       <nav aria-label="Navegación principal">
-        <a href="#proyectos">Proyectos</a> <a href="notas/">Ensayos</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#escritura">Escritura</a>
+        <a href="#ensayos">Ensayos</a>
         <a href="#sobre-mi">Sobre mí</a>
-        <a class="nav-cta" href="https://github.com/Hefestion1989">GitHub</a>
       </nav>
     </header>
     <main id="contenido">
-      <section class="hero">
+      <section class="hero" id="inicio" aria-labelledby="inicio-title">
         <div class="hero-copy">
-          <p class="eyebrow">Psicología · IA · proyectos digitales</p>
-          <h1>Tecnología con<br /><span>contexto humano.</span></h1>
+          <p class="eyebrow">Herramientas · Escritura · Ensayos</p>
+          <h1 id="inicio-title">Ideas, textos y<br /><span>herramientas.</span></h1>
           <p class="hero-lead">
-            Construyo herramientas abiertas, aplicaciones privadas y textos que
-            conectan inteligencia artificial, subjetividad, salud mental y
-            problemas concretos.
+            Este es el punto de encuentro de lo que hago: herramientas para
+            estudiar y crear, proyectos de escritura y ensayos sobre psicología,
+            inteligencia artificial y sociedad. Elegí por dónde empezar.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
-            <a class="button button-secondary" href="notas/">Leer ensayos</a>
+            <a class="button button-primary" href="#herramientas">Usar una herramienta</a>
+            <a class="button button-secondary" href="#escritura">Escribir</a>
+            <a class="button button-secondary" href="#ensayos">Leer ensayos</a>
           </div>
         </div>
         <aside class="hero-note" aria-label="Perfil">
@@ -87,122 +89,130 @@
           </p>
         </aside>
       </section>
-      <section class="featured" id="proyectos">
+      <section class="hub-section" id="herramientas" aria-labelledby="herramientas-title">
+        <span id="proyectos" class="anchor-alias" aria-hidden="true"></span>
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Trabajo seleccionado</p>
-            <h2>Tres puertas de entrada</h2>
+            <p class="eyebrow">Para estudiar, explorar y resolver</p>
+            <h2 id="herramientas-title">Herramientas</h2>
           </div>
-          <a class="text-link" href="proyectos/">Ver todos los proyectos →</a>
+          <a class="text-link" href="proyectos/">Directorio completo →</a>
         </div>
-        <div class="project-grid">
-          <article class="project-card project-card-wide">
-            <a
-              class="project-visual"
-              href="https://hefestion1989.github.io/mapa-comunitario/"
-              aria-label="Abrir Mapa Comunitario"
-            >
-              <img
-                src="assets/images/mapa-comunitario.png"
-                alt="Interfaz pública de Mapa Comunitario"
-                loading="eager"
-              />
-            </a>
-            <div class="project-content">
-              <div class="tag-row">
-                <span class="tag tag-public">Impacto público</span
-                ><span class="tag">Uruguay</span>
-              </div>
-              <h3>Mapa Comunitario</h3>
-              <p>
-                Directorio abierto para conectar personas con recursos de salud
-                mental, apoyo social, educación, trabajo y emergencias. Cada
-                ficha prioriza fuente y fecha de verificación.
-              </p>
-              <div class="card-links">
-                <a href="https://hefestion1989.github.io/mapa-comunitario/"
-                  >Abrir aplicación</a
-                >
+        <p class="section-intro">Abrí una herramienta o conocé el proyecto antes de usarlo. Cada ficha indica si funciona en la web, necesita una clave de IA o se instala en tu equipo.</p>
+        <div class="hub-grid">
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Estudio</span></div>
+            <h3>Apunte Claro</h3>
+            <p>Prepará tus materiales y un pedido preciso para hacer resúmenes con ChatGPT u otra IA. Elegís qué compartir y cuándo.</p>
+            <div class="card-links">
+                <a href="https://apunte-claro-estudio.hefestion.chatgpt.site/">Abrir Apunte Claro</a>
+                <a href="proyectos/apunte-claro.html">Cómo funciona</a>
+            </div>
+          </article>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Recursos en Uruguay</span></div>
+            <h3>Mapa Comunitario</h3>
+            <p>Encontrá recursos de salud mental, apoyo social, educación, trabajo y emergencias, con sus fuentes y fechas de verificación.</p>
+            <div class="card-links">
+                <a href="https://hefestion1989.github.io/mapa-comunitario/">Abrir Mapa Comunitario</a>
                 <a href="proyectos/mapa-comunitario.html">Ver ficha</a>
-                <a href="https://github.com/Hefestion1989/mapa-comunitario"
-                  >Código</a
-                >
-              </div>
             </div>
           </article>
-          <article class="project-card">
-            <a
-              class="project-visual"
-              href="proyectos/tinta-viva.html"
-              aria-label="Ver Tinta Viva"
-            >
-              <img
-                src="assets/images/tinta-viva-preview.svg"
-                alt="Representación de la interfaz de Tinta Viva"
-                loading="lazy"
-              />
-            </a>
-            <div class="project-content">
-              <div class="tag-row">
-                <span class="tag tag-local">Local-first</span
-                ><span class="tag">Código abierto</span>
-              </div>
-              <h3>Tinta Viva</h3>
-              <p>
-                Aplicación de escritorio para narradores: identidades,
-                personajes, universos y continuidad con modelos locales. Los
-                datos permanecen en el equipo.
-              </p>
-              <div class="card-links">
-                <a href="proyectos/tinta-viva.html">Ver proyecto</a>
-                <a
-                  href="https://github.com/Hefestion1989/tinta-viva/releases/tag/v0.8.2"
-                  >Descargar 0.8.2</a
-                >
-              </div>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Sin cuenta ni clave</span></div>
+            <h3>Prompts Workshop</h3>
+            <p>Un taller sencillo para ordenar tus ideas y construir mejores pedidos a una IA. Trabaja en tu navegador.</p>
+            <div class="card-links">
+                <a href="https://hefestion1989.github.io/Prompts/">Abrir el taller</a>
+                <a href="https://github.com/Hefestion1989/Prompts">Ver proyecto</a>
             </div>
           </article>
-          <article class="project-card">
-            <a
-              class="project-visual"
-              href="notas/ia-y-consciencia/"
-              aria-label="Leer ensayos sobre IA y subjetividad"
-            >
-              <img
-                src="assets/images/ensayos-preview.svg"
-                alt="Composición editorial sobre inteligencia artificial y subjetividad"
-                loading="lazy"
-              />
-            </a>
-            <div class="project-content">
-              <div class="tag-row">
-                <span class="tag tag-essay">Ensayos</span
-                ><span class="tag">Psicología + IA</span>
-              </div>
-              <h3>Subjetividad e inteligencia artificial</h3>
-              <p>
-                Textos filosófico-psicológicos sobre consciencia, vínculos
-                humano-IA, cultura y tecnología desde una mirada situada en
-                Uruguay.
-              </p>
-              <div class="card-links">
-                <a href="notas/ia-y-consciencia/">Leer selección</a>
-                <a
-                  href="https://github.com/Hefestion1989/subjetividad-no-biologica"
-                  >Ver repositorio</a
-                >
-              </div>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Con clave de Gemini</span></div>
+            <h3>PromptMaster AI</h3>
+            <p>Un entorno para mejorar y comparar prompts con asistencia de IA. Requiere tu propia clave de Gemini.</p>
+            <div class="card-links">
+                <a href="https://hefestion1989.github.io/promptmaster-ai/">Abrir PromptMaster</a>
+                <a href="https://github.com/Hefestion1989/promptmaster-ai">Ver proyecto</a>
+            </div>
+          </article>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Experimental · Gemini</span></div>
+            <h3>VeryCheck</h3>
+            <p>Explorá afirmaciones con verificación asistida por IA. Requiere una clave de Gemini; sus resultados necesitan revisión de fuentes.</p>
+            <div class="card-links">
+                <a href="https://hefestion1989.github.io/VeryCheck/">Abrir VeryCheck</a>
+                <a href="https://github.com/Hefestion1989/VeryCheck">Ver proyecto</a>
+            </div>
+          </article>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">Para Windows</span></div>
+            <h3>Auditoría Local PC</h3>
+            <p>Consultá el estado de CPU, memoria, disco y batería con informes que se generan en tu equipo.</p>
+            <div class="card-links">
+                <a href="https://hefestion1989.github.io/auditoria-local-pc/">Ver y descargar</a>
+                <a href="proyectos/auditoria-local-pc.html">Ver ficha</a>
             </div>
           </article>
         </div>
       </section>
-      <section class="areas" aria-labelledby="areas-title">
+      <section class="hub-section" id="escritura" aria-labelledby="escritura-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Ejes de trabajo</p>
-            <h2 id="areas-title">Una práctica interdisciplinaria</h2>
+            <p class="eyebrow">De las fuentes al manuscrito</p>
+            <h2 id="escritura-title">Espacios para escribir</h2>
           </div>
         </div>
+        <p class="section-intro">Para investigar, ordenar un libro o dar continuidad a una historia. Elegí el espacio según tu forma de trabajar.</p>
+        <div class="hub-grid">
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-public">En tu navegador</span></div>
+            <h3>Cronista</h3>
+            <p>Reuní fuentes, guardá evidencias y organizá capítulos para un libro, una investigación o un ensayo. Tus proyectos se guardan en tu navegador.</p>
+            <div class="card-links">
+                <a href="https://cronista-estudio.hefestion.chatgpt.site/">Abrir Cronista</a>
+                <a href="proyectos/cronista.html">Cómo funciona</a>
+            </div>
+          </article>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-local">Aplicación de escritorio</span></div>
+            <h3>Tinta Viva</h3>
+            <p>Un espacio para desarrollar personajes, universos y continuidad narrativa con modelos locales. Los datos permanecen en tu equipo.</p>
+            <div class="card-links">
+                <a href="proyectos/tinta-viva.html">Ver y descargar</a>
+                <a href="https://github.com/Hefestion1989/tinta-viva">Código fuente</a>
+            </div>
+          </article>
+          <article class="hub-card">
+            <div class="tag-row"><span class="tag tag-local">Instalación local</span></div>
+            <h3>Tinta Privada</h3>
+            <p>Escritura libre, novelas interactivas y roleplay adulto con modelos de LM Studio. Necesita ejecutarse en tu equipo.</p>
+            <div class="card-links">
+                <a href="proyectos/tinta-privada.html">Ver proyecto</a>
+                <a href="https://github.com/Hefestion1989/tinta-privada">Instalación</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="areas" id="ensayos" aria-labelledby="areas-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Para leer y conversar</p>
+            <h2 id="areas-title">Ensayos y escritos</h2>
+          </div>
+        </div>
+        <p class="section-intro">Textos propios sobre consciencia, salud mental, cultura y tecnología. Explorá por tema o recorré el <a href="notas/">índice de publicaciones</a>.</p>
+        <article class="essay-highlight">
+          <div>
+            <p class="eyebrow">Una lectura para empezar</p>
+            <h3>Subjetividad no biológica</h3>
+            <p>Un ensayo sobre las formas artificiales del yo y los vínculos entre humanos e inteligencias artificiales.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://www.academia.edu/129924828/Subjetividad_no_biol%C3%B3gica_una_mirada_desde_la_experiencia_humana_hacia_las_formas_artificiales_del_yo">Leer en Academia.edu</a>
+            <a href="https://github.com/Hefestion1989/subjetividad-no-biologica">Archivo del ensayo</a>
+          </div>
+        </article>
         <div class="area-grid">
           <a class="area-card" href="notas/salud-mental-y-cuerpo/">
             <span>01</span>
@@ -239,9 +249,9 @@
             práctico con inteligencia artificial.
           </p>
           <p>
-            Este portfolio no intenta mostrar perfección terminada: documenta
-            proyectos utilizables, decisiones de diseño y una forma activa de
-            aprender.
+            Acá reúno herramientas que desarrollo, textos que escribo y proyectos
+            que sigo explorando. Cada uno tiene su propio recorrido; este espacio
+            ayuda a encontrarlos y a entender para qué sirven.
           </p>
           <div class="about-links">
             <a
@@ -254,28 +264,11 @@
         </div>
       </section>
       <section class="more-work" aria-labelledby="more-title">
-        <h2 id="more-title">Más trabajo</h2>
+        <h2 id="more-title">Seguir explorando</h2>
         <div class="more-links">
-          <a href="proyectos/apunte-claro.html"
-            ><strong>Apunte Claro</strong
-            ><span>Resúmenes académicos con método y la IA que elijas</span></a
-          >
-          <a href="https://hefestion1989.github.io/auditoria-local-pc/"
-            ><strong>Auditoría Local PC</strong
-            ><span>Diagnóstico privado de rendimiento para Windows</span></a
-          >
-          <a href="https://github.com/Hefestion1989/VeryCheck"
-            ><strong>VeryCheck</strong
-            ><span>Verificación experimental con IA</span></a
-          >
-          <a href="https://github.com/Hefestion1989/buscador-academico-local"
-            ><strong>Buscador académico local</strong
-            ><span>Búsqueda privada sobre documentos</span></a
-          >
-          <a href="proyectos/tinta-privada.html"
-            ><strong>Tinta Privada</strong
-            ><span>Escritura y roleplay adulto en local</span></a
-          >
+          <a href="proyectos/"><strong>Todos los proyectos</strong><span>Herramientas, prototipos y fichas de trabajo</span></a>
+          <a href="notas/"><strong>Todos los textos</strong><span>Ensayos, artículos y publicaciones originales</span></a>
+          <a href="archivo/"><strong>Archivo</strong><span>Otros materiales y recorridos de investigación</span></a>
         </div>
       </section>
     </main>
@@ -284,7 +277,7 @@
       <div>
         <a href="archivo/">Archivo</a
         ><a href="https://github.com/Hefestion1989/portfolio-proyectos"
-          >Código de la vitrina</a
+          >Código del hub</a
         >
       </div>
     </footer>

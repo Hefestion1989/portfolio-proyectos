@@ -5,6 +5,7 @@ import { marked } from "marked";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const output = resolve(root, "dist");
+const siteUrl = new URL(process.env.SITES_URL || "https://damian-proyectos.hefestion.chatgpt.site/");
 const layout = await readFile(resolve(root, "_layouts/default.html"), "utf8");
 
 function escapeHtml(value) {
@@ -24,11 +25,11 @@ function parsePage(source) {
   return { metadata, markdown: source.slice(match[0].length) };
 }
 
-function renderPage(metadata, markdown) {
+function renderPage(metadata, markdown, path) {
   const title = escapeHtml(metadata.title);
   const description = escapeHtml(metadata.description || "Proyectos, herramientas y ensayos desde Montevideo, Uruguay.");
   return layout
-    .replace(/^.*<link rel="canonical".*\r?\n/m, "")
+    .replace(/^.*<link rel="canonical".*$/m, `  <link rel="canonical" href="${escapeHtml(new URL(path, siteUrl).href)}">`)
     .replace(/\{\{\s*'([^']+)'\s*\|\s*relative_url\s*\}\}/g, (_, path) => path)
     .replace(/\{\{\s*site\.lang\s*\|\s*default:\s*'es-UY'\s*\}\}/g, "es-UY")
     .replace(/\{\{\s*page\.description\s*\|\s*default:\s*site\.description\s*\|\s*escape\s*\}\}/g, description)
@@ -46,14 +47,17 @@ async function buildDirectory(directory) {
       const target = resolve(output, path.replace(/\.md$/, ".html"));
       const { metadata, markdown } = parsePage(await readFile(source, "utf8"));
       await mkdir(dirname(target), { recursive: true });
-      await writeFile(target, renderPage(metadata, markdown));
+      await writeFile(target, renderPage(metadata, markdown, path.replace(/\.md$/, ".html").replace(/index\.html$/, "")));
     }
   }
 }
 
 await rm(output, { recursive: true, force: true });
 await mkdir(resolve(output, ".openai"), { recursive: true });
-await cp(resolve(root, "index.html"), resolve(output, "index.html"));
+const homepage = await readFile(resolve(root, "index.html"), "utf8");
+await writeFile(resolve(output, "index.html"), homepage.replaceAll(
+  "https://hefestion1989.github.io/portfolio-proyectos/", siteUrl.href,
+));
 await cp(resolve(root, "assets"), resolve(output, "assets"), { recursive: true });
 await cp(resolve(root, ".openai/hosting.json"), resolve(output, ".openai/hosting.json"));
 for (const section of ["archivo", "notas", "proyectos"]) {
