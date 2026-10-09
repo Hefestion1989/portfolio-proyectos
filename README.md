@@ -40,3 +40,7 @@ Tinta Privada continúa disponible como proyecto independiente de escritura y ro
 - La vitrina muestra y orienta.
 - El código y los materiales de trabajo viven en sus repositorios.
 - GitHub centraliza un recorrido público que se pueda entender sin conocer el mundo técnico.
+
+## Build para ChatGPT Sites
+
+`npm ci && npm run build:sites` genera `dist/`: conserva la portada HTML y las imágenes, y convierte las páginas Markdown de `archivo/`, `notas/` y `proyectos/` a HTML. GitHub Pages continúa usando su configuración Jekyll. Los enlaces existentes a GitHub Pages y otros proyectos se conservan hasta tener nuevos dominios. La publicación requiere vincular este repositorio a un proyecto de Sites.
